@@ -3,4 +3,4 @@ Medium android application display content with text, image, video etc in post d
 
 #Screenshot
 
-[![Screenshot](https://github.com/angebagui/medium-textview/blob/master/screenshot/Screenshot_2016-08-14-19-59-32.png)
+![Screenshot](https://github.com/angebagui/medium-textview/blob/master/screenshot/Screenshot_2016-08-14-19-59-48.png)
