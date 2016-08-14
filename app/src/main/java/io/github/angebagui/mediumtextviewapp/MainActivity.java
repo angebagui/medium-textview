@@ -1,18 +1,12 @@
-package io.github.angebagui.mediumtextview;
+package io.github.angebagui.mediumtextviewapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.webkit.WebChromeClient;
-import android.webkit.WebView;
-import android.widget.Toast;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
+import io.github.angebagui.mediumtextview.MediumTextView;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -3,7 +3,6 @@ package io.github.angebagui.mediumtextview;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;

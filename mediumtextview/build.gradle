@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'mediumtextview'
+
+    publishedGroupId = 'io.github.angebagui.mediumtextview'
+    libraryName = 'MediumTextView'
+    artifact = 'mediumtextview'
+
+    libraryDescription = 'Medium android application display content with text, image, video etc in post detail. It can me a pain to do it with content came from CMS. So i decided to design that View to display the content quickly'
+
+    siteUrl = 'https://github.com/angebagui/medium-textview'
+    gitUrl = 'https://github.com/angebagui/medium-textview.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'angebagui'
+    developerName = 'Ange Bagui'
+    developerEmail = 'angebagui@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    testCompile 'junit:junit:4.12'
+
+    // Java HTML Parser
+    compile 'org.jsoup:jsoup:1.9.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+}
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

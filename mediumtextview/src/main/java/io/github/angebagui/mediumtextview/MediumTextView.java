@@ -2,7 +2,6 @@ package io.github.angebagui.mediumtextview;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.widget.LinearLayout;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -26,7 +25,7 @@ public class MediumTextView  extends ElementView{
 
     @Override
     public void render() {
-        setOrientation(LinearLayout.VERTICAL);
+        setOrientation(VERTICAL);
     }
 
     public void setText(String html){

@@ -1,4 +1,4 @@
-package io.github.angebagui.mediumtextview;
+package io.github.angebagui.mediumtextviewapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("io.github.angebagui.mediumtextview", appContext.getPackageName());
+        assertEquals("io.github.angebagui.mediumtextviewapp", appContext.getPackageName());
     }
 }

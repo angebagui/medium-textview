@@ -29,7 +29,7 @@ public class ParagraphView extends ElementView{
     @Override
     public void render() {
         setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,LayoutParams.WRAP_CONTENT));
-        setOrientation(LinearLayout.VERTICAL);
+        setOrientation(VERTICAL);
 
         if (getElement() != null){
 

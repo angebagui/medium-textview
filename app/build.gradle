@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
     defaultConfig {
-        applicationId "io.github.angebagui.mediumtextview"
+        applicationId "io.github.angebagui.mediumtextviewapp"
         minSdkVersion 9
         targetSdkVersion 24
         versionCode 1
@@ -29,8 +29,9 @@ dependencies {
     compile 'com.android.support:design:24.1.1'
     testCompile 'junit:junit:4.12'
 
-    // Java HTML Parser
-    compile 'org.jsoup:jsoup:1.9.2'
+
     compile 'com.google.code.gson:gson:2.7'
-    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    compile project(':mediumtextview')
+
 }

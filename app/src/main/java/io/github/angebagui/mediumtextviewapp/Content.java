@@ -1,4 +1,4 @@
-package io.github.angebagui.mediumtextview;
+package io.github.angebagui.mediumtextviewapp;
 
 import android.content.Context;
 
