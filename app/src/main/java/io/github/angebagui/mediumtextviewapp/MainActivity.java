@@ -6,6 +6,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+//https://github.com/angebagui/medium-textview/blob/master/screenshot/Screenshot_2016-08-14-19-59-32.png
+//https://github.com/angebagui/medium-textview/blob/master/screenshot/Screenshot_2016-08-14-19-59-48.png
+
 import io.github.angebagui.mediumtextview.MediumTextView;
 
 public class MainActivity extends AppCompatActivity {
