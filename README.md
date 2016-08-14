@@ -54,5 +54,4 @@ Licences
     limitations under the License.
 
 #Screenshot
-
 ![Screenshot](https://github.com/angebagui/medium-textview/blob/master/screenshot/Screenshot_2016-08-14-19-59-48.png)
