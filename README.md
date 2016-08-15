@@ -20,7 +20,7 @@ dependencies {
 }
 ```
 
-In my layout xml
+2. In my layout xml
 ```xml
     <ScrollView
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@ In my layout xml
             />
     </ScrollView>
 ```
-Now in java code we add set the content now
+3. Now in java code we add set the content now
 ```java
         MediumTextView mediumTextView = (MediumTextView)findViewById(R.id.medium_text_view);
         mediumTextView.setText(getContentHtml());
