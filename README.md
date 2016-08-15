@@ -13,14 +13,13 @@ Medium android application display content with text, image, video etc in post d
 Usage
 -----
 
-1. Add the following to your build.gradle
+**1.** Add the following to your **build.gradle**.
 ```groovy
 dependencies {
   compile 'io.github.angebagui.mediumtextview:mediumtextview:1.0.1'
 }
 ```
-
-2. In my layout xml
+**2.** In my **layout** xml
 ```xml
     <ScrollView
         android:layout_width="match_parent"
@@ -34,7 +33,8 @@ dependencies {
             />
     </ScrollView>
 ```
-3. Now in java code we add set the content now
+
+**3.** Now in java code we add set the content now
 ```java
         MediumTextView mediumTextView = (MediumTextView)findViewById(R.id.medium_text_view);
         mediumTextView.setText(getContentHtml());
