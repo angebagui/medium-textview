@@ -10,12 +10,6 @@ Download
 
 In your dependences
 ```groovy
-repositories {
-    maven {
-        url 'https://dl.bintray.com/angebagui/maven/'
-    }
-}
-
 dependencies {
   compile 'io.github.angebagui.mediumtextview:mediumtextview:1.0.1'
 }
