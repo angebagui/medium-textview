@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-  compile 'io.github.angebagui.mediumtextview:mediumtextview:1.0.0'
+  compile 'io.github.angebagui.mediumtextview:mediumtextview:1.0.1'
 }
 ```
 #Usage
