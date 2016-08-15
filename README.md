@@ -3,7 +3,7 @@ Medium Textview
 
 [ ![Download](https://api.bintray.com/packages/angebagui/maven/mediumtextview/images/download.svg) ](https://bintray.com/angebagui/maven/mediumtextview/_latestVersion)
 
-[Medium](https://play.google.com/store/apps/details?id=com.medium.reader)  android application displays content with text, image, video etc in post detail. It can me a pain to do it with content came from CMS. So i decided to design that View to display the content quickly
+[Medium](https://play.google.com/store/apps/details?id=com.medium.reader)  android application displays content with text, image, video etc in post detail. It can me a pain to do it with content came from CMS. So i decided to design that View to display the content quickly. It's different to Webview. 
 
 ### Features
 * **Paragraph** ``` <p></p>```
