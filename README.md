@@ -39,7 +39,7 @@ dependencies {
     </ScrollView>
 ```
 
-**3.** Now in java code we add set the content now
+**3.** Now in java code we set the content now
 ```java
         MediumTextView mediumTextView = (MediumTextView)findViewById(R.id.medium_text_view);
         mediumTextView.setText(getContentHtml());
