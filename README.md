@@ -1,5 +1,8 @@
-# Medium Textview
+Medium Textview
+===============
+
 [ ![Download](https://api.bintray.com/packages/angebagui/maven/mediumtextview/images/download.svg) ](https://bintray.com/angebagui/maven/mediumtextview/_latestVersion)
+
 Medium android application display content with text, image, video etc in post detail. It can me a pain to do it with content came from CMS. So i decided to design that View to display the content quickly
 
 #Screenshot
@@ -7,16 +10,16 @@ Medium android application display content with text, image, video etc in post d
 
 
 
-Download
-========
+Usage
+-----
 
-In your dependences
+1. Add the following to your build.gradle
 ```groovy
 dependencies {
   compile 'io.github.angebagui.mediumtextview:mediumtextview:1.0.1'
 }
 ```
-#Usage
+
 In my layout xml
 ```xml
     <ScrollView
@@ -38,7 +41,7 @@ Now in java code we add set the content now
 ```
 
 Licences
-=======
+--------
     Copyright 2016 Ange Bagui.
 
     Licensed under the Apache License, Version 2.0 (the "License");
